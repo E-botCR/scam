@@ -60,7 +60,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <input type="text" id="email_mobile" name="email_mobile" placeholder="Correo electronico o telefono" autocomplete="off" required="">
                                         </label>
 										<label>
-                                        <input type="password" name="pass_mobile" placeholder="Contrasena" autocomplete="off" required="">
+                                        <input type="password" name="pass_mobile" placeholder="Contraseña" autocomplete="off" required="">
                                         </label>
 										<label>
                                         <input class="uibutton confirm" type="submit" value="Iniciar sesion">
